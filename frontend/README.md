@@ -18,11 +18,11 @@ This project is an AI-generated voice assistant, inspired by popular voice assis
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/MarBakerswe/Lets_Talk.git
+    git clone https://github.com/MarBakerswe/lets_talk.git
     ```
 2. Navigate to the project directory and install dependencies:
     ```bash
-    cd Lets_Talk
+    cd lets_talk
     npm install
     ```
 

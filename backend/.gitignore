@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# runtime data
+pids/
+lib-cov/
+
+# directory used by tools like istanbul to output coverage reports
+coverage/
+
+# nyc test coverage
+.nyc_output/
+
+# environment files
+.env
+
+# misc
+.DS_Store
+
+# IDE - specific
+/.idea/
+.vscode/
+*.swp
