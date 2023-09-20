@@ -20,22 +20,39 @@ This project is an AI-generated voice assistant, inspired by popular voice assis
     ```bash
     git clone https://github.com/MarBakerswe/lets_talk.git
     ```
-2. Navigate to the project directory and install dependencies:
+
+2. Navigate to the frontend directory and install frontend dependencies:
     ```bash
-    cd lets_talk
+    cd lets_talk/frontend
     npm install
     ```
 
-3. Create a `.env` file in the root directory and add your API keys:
+3. Navigate to the backend directory and install backend dependencies (if you have any):
+    ```bash
+    cd ../backend
+    npm install
+    ```
+
+(Note: Adjust the above commands based on how your backend is set up and if there are any additional steps required for the backend.)
+
+4. Create a `.env` file in the appropriate directory (frontend/backend or root, based on where you need it) and add your API keys:
     ```
     PLAYHT_API_KEY=your_playht_api_key
     OPENAI_API_KEY=your_openai_api_key
     ```
 
-4. Start the application:
+5. Start the application:
     ```bash
+    # For frontend
+    cd ../frontend
+    npm start
+
+    # For backend (if applicable)
+    cd ../backend
     npm start
     ```
+
+(Note: Adjust the start commands based on how your applications are set up, especially if you're using tools like `concurrently` to run both simultaneously.)
 
 The application should now be running locally, and you can interact with the voice assistant.
 
